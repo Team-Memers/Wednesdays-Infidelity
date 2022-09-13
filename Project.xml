@@ -91,7 +91,6 @@
 	<!--Disable the Flixel core debugger. Automatically gets set whenever you compile in release mode!-->
 	<haxedef name="FLX_NO_DEBUG" unless="debug" />
 
-	<error value="Targets besides desktop are not supported" unless="desktop" />
 
 	<haxedef name="no-deprecation-warnings" />
 
